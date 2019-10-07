@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.calendar-container {
+}
+.calendar-data {
+  width: 100%;
+
+  min-height: 150px;
+  font-size: 40px;
+}
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.events .ant-badge-status {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.notes-month {
+  text-align: center;
+  font-size: 28px;
+}
+.notes-month section {
+  font-size: 28px;
+}
+
+.insctuctor-dash {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.insctuctor-dash button {
+  font-size: 13px;
+  width: 70px;
+  background-color: blue;
+  color: white;
+}
